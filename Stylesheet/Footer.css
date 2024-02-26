@@ -1,0 +1,181 @@
+.footer-start {
+  padding: 40px 15px 20px 115px;
+  /* background-color: #5f64ec; */
+  background: url("../img/Footer_bg.5769964502528dd9e0e7.jpg");
+  display: flex;
+  justify-content: space-between;
+}
+
+.itsolutions,
+.products,
+.quicklink,
+.ittrainning,
+.contact-through {
+  color: white;
+}
+
+.itsolutions h4,
+.products h4,
+.quicklink h4,
+.ittrainning h4,
+.contact-through h4 {
+  padding-top: 10px;
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.itsolutions ul,
+.products ul,
+.quicklink ul,
+.ittrainning ul,
+.contact-through ul {
+  padding-left: 0px;
+}
+
+.itsolutions ul li a,
+.products ul li a,
+.quicklink ul li a,
+.ittrainning ul li a,
+.contact-through ul li a,
+.contact-through p,
+.contact-through address {
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 0px;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+.itsolutions li,
+.products li,
+.quicklink li,
+.ittrainning li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.itsolutions ul li:hover,
+.products ul li:hover,
+.quicklink ul li:hover,
+.ittrainning ul li:hover {
+  transition: all 0.5s;
+  transform: translateX(10px);
+}
+
+.footer-end {
+  padding: 20px 15px;
+}
+.copyright {
+  font-size: 15px;
+}
+.footer-end .copyright {
+  color: #676c71;
+}
+
+.footer-end-icons ul {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+.footer-end-icons ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+.footer-end-icons .icons {
+  color: white;
+}
+.footer-end-icons .facebook {
+  background: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  padding: 4px;
+  text-align: center;
+}
+.footer-end-icons .insta {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  padding: 4px;
+  text-align: center;
+}
+.footer-end-icons .linkedin {
+  background: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  padding: 4px;
+  text-align: center;
+}
+.footer-end-icons .pintrest {
+  background: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  padding: 4px;
+  text-align: center;
+}
+.footer-end-icons .twitter {
+  background: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  padding: 4px;
+  text-align: center;
+}
+
+/* media queries */
+@media (max-width: 576px) {
+  .footer-start {
+    padding: 40px 0px 20px 15px;
+  }
+
+  .info-ul {
+    padding-left: 0;
+  }
+
+  .footer-end-icons ul {
+    display: flex;
+    justify-content: center;
+  }
+  .Information ul {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-end .copyright {
+    padding: 15px 0px;
+  }
+  .footer-end .footer-end-logo {
+    text-align: center;
+  }
+
+  .itsolutions ul,
+  .products ul,
+  .quicklink ul,
+  .ittrainning ul,
+  .contact-through ul {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-end-icons ul {
+    padding-left: 0px;
+  }
+  .footer-end-icons ul li {
+    padding: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-start {
+    padding: 20px 0;
+  }
+}

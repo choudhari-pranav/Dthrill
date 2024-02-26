@@ -1,0 +1,9 @@
+.success {
+  /* background: url("../Images/global.png");
+  background-repeat: no-repeat;
+  background-position: right -68px top 35%; */
+  background-color: #000249;
+}
+.successpart {
+  padding: 40px;
+}
